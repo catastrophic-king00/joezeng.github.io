@@ -1,0 +1,68 @@
+html, body{
+    font-family: Hind, sans-serif;
+    font-size: 16px;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #404040;
+    text-decoration: none;
+}
+
+
+
+div.linkbutton{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: none;
+    padding: 8px 16px;
+    transition: 0.2s linear;
+    font-weight: 500;
+}
+
+div.linkbutton:hover{
+    background-color: #f7f7f7;
+}
+
+
+
+#container{
+    max-width: 720px;
+    padding: 20px;
+    margin: auto;
+}
+
+#header{
+    margin-top: 32px;
+    padding: 28px;
+    text-align: center;
+}
+
+#header h1{
+    font-family: Inconsolata, monospace;
+    line-height: 1em;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+
+#header p.subtitle{
+    margin: 0;
+}
+
+
+
+#linkbar{
+    width: 100%;
+    text-align: center;
+}
+
+#footer p.footer-notice{
+    font-size: 0.75em;
+    text-align: center;
+}
